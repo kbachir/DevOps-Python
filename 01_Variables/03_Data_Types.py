@@ -76,22 +76,31 @@ f = False
 #
 # print (age > 18 and drink == "alcohol")
 
-hi = "Hello World"
-print(hi.isalpha())
-print(hi.islower())
-print(hi.isupper())
-print(hi.endswith("d"))
-print(hi.startswith("F"))
+# hi = "Hello World"
+# print(hi.isalpha())
+# print(hi.islower())
+# print(hi.isupper())
+# print(hi.endswith("d"))
+# print(hi.startswith("F"))
+# print("  ")
+# hi = "Hello World"
+# print(hi.isalpha())  # checks if there are only alphabetical chars (spaces, numbers, periods will return false)
+# print(hi.islower())
+# print(hi.isupper())
+# print(hi.endswith("d"))
+# print(hi.startswith("h"))
+#
+#
+# name = input("Type your name")
+# age = int(input("enter age"))
+#
+# print(f"{name} {age}")
 
-hi = "Hello World."
-print(hi.isalpha())
-print(hi.islower())
-print(hi.isupper())
-print(hi.endswith("d"))
-print(hi.startswith("h"))
+# print(bool(10))
+# print(bool(0))
 
+n = None  # Typically used as placeholder
+print(n, type(n))
 
-name = input("Type your name")
-age = int(input("enter age"))
-
-print(f"{name} {age}")
+# 'is'   checks if something has a property. I.e checking Types. Don't necessarily need ==. I.e:
+print(type(15) is int)
