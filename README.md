@@ -6,9 +6,9 @@
 
 This will be a regular text/paragraph
 
-We can put code in 'code snippets'
+We can put code in `code snippets`
 
-'backticks, 
-not apostrophes'
+`backticks, 
+not apostrophes`
 
-'''python 
+```python 
