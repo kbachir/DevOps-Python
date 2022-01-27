@@ -1,0 +1,31 @@
+The four pillars:
+
+Abstraction
+- Hiding the complicated stuff to make it easy.
+
+e.g. Robot vacuum cleaner has a three modes, normal, smart and max. You have go, stop, power setting.
+
+Encapsulation
+- About hiding away the dangerous stuff to make it safe.
+- This is like using .__method. Think of the heating coil on a toaster; you can't set the voltage, only within a
+range that is made accessible to you.
+
+e.g. Robot vacuum cleaner  - don't let you control the wattage as it could be dangerous and wear down your product.
+
+
+# Inheritance - Inheritance is the procedure in which one class inherits the attributes and methods of another class.
+The class whose properties and methods are inherited is known as Parent class. And the class that inherits the properties
+from the parent class is the Child class. Inherited using the super function
+- Good so you dont need to repeat code. For devs, it means you can create something and extend it.
+
+
+e.g. cheaper version won't have a lidar sensor but will still have the same components and functions behind the rest of
+the vacuum
+
+# Polymorphism - Polymorphism means having many forms. In OOP it refers to the functions having the same names but
+carrying different functionalities.
+- Multiple forms and shapes
+- Means you're not constrained by inheritance.
+
+e.g. similar functionality and process but different outcome. I.e the same motor can be programmed to reach different
+speeds etc.

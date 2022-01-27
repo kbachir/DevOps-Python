@@ -73,3 +73,25 @@ print(list_in_tuple)
 
 # changing an item within a list that lives in a tuple is possible, but you can't change the list itself (?)
 
+"""
+
+# Split
+
+text = "It was the best of times"
+
+text_list = text.split() <- string operators that splits a string into word by word list.
+
+csv = "12, 235, 645, 564, 234"
+
+csv_list = csv.split(",") <- split csv numbers into file by commas. 
+
+# Join
+
+text_list = " ".join(text_list) <- prints a list for view as a string. Will return a string but not change the original. 
+
+# Sorted
+
+sorted(n) <- Will sort whatever you give it. It will return but not change original again. 
+n.sort <- Will actually change the list and sort it. 
+
+"""

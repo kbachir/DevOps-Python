@@ -1,0 +1,1 @@
+# a Python package is just a directory with an __init__ file in it. Also has a dot in the file icon.
